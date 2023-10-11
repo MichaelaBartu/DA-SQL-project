@@ -1,0 +1,4 @@
+SELECT *
+FROM czechia_price
+INNER JOIN czechia_price_category
+	ON czechia_price.category_code = czechia_price_category.code;
