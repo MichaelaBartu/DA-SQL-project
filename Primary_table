@@ -1,18 +1,1 @@
-SELECT 
-value,
-payroll_year,
-industry_branch_code
-FROM czechia_payroll cp 
-WHERE value IS NULL 
-GROUP BY payroll_year ASC 
-;
 
-
-SELECT 
-value,
-category_code,
-date_to,
-date_from
-FROM czechia_price cp 
-ORDER BY date_to ASC
-;
